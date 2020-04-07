@@ -2,10 +2,10 @@
  Projekt feladat
 
 ### A projekt
- #Tagok: Túri Márk Levente, Ádám Patrik
- #Elkészítés oka: Csoportos projektfeladat a Vizuális programozás tárgyhoz
- #Választott programozási nyelv: c#
- #Beadás határideje: 
+ -Tagok: Túri Márk Levente, Ádám Patrik
+ -Elkészítés oka: Csoportos projektfeladat a Vizuális programozás tárgyhoz
+ -Választott programozási nyelv: c#
+ -Beadás határideje: 
  
 
 ### Feladat rövid leírása
