@@ -1,0 +1,14 @@
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\bin\Debug\Amoba.exe.config
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\bin\Debug\Amoba.exe
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\bin\Debug\Amoba.pdb
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\Amoba.csprojAssemblyReference.cache
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\MainWindow.g.cs
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\App.g.cs
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\Amoba_MarkupCompile.cache
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\Amoba_MarkupCompile.lref
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\MainWindow.baml
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\Amoba.g.resources
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\Amoba.Properties.Resources.resources
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\Amoba.csproj.GenerateResource.cache
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\Amoba.exe
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\Amoba.pdb

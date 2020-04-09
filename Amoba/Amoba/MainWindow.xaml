@@ -1,0 +1,28 @@
+﻿<Window x:Class="Amoba.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Amoba"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Menu Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="0">
+            <MenuItem Header="Új játék" x:Name="miUjjatek" Click="miUjjatek_Click" />
+            <MenuItem Header="Eredmények" x:Name="miEredmenyek" Click="miEredmenyek_Click" />
+            <MenuItem Header="Kilép" x:Name="miKilep" Click="miKilep_Click" />
+        </Menu>
+    </Grid>
+</Window>
