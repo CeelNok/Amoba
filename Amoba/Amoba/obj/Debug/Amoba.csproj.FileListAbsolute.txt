@@ -27,3 +27,5 @@ D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\Amoba.csproj.Genera
 D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\Amoba.csproj.CoreCompileInputs.cache
 D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\Amoba.exe
 D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\Amoba.pdb
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\wndMenu.g.cs
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\wndMenu.baml

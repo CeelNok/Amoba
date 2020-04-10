@@ -42,7 +42,7 @@ namespace Amoba
 
         private void miKilep_Click(object sender, RoutedEventArgs e)
         {
-
+            Application.Current.Shutdown();
         }
         
         private void button_Click(object sender, EventArgs e)
@@ -54,7 +54,7 @@ namespace Amoba
                 btn.Content = "X"; // ha igaz, akkor az X következik
             else
                 btn.Content = "O"; // ha hamis, akkor az O következik
-            turn = !turn;
+            turn = !turn; 
             btn.IsEnabled = false;
             
         }

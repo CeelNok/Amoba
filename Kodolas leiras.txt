@@ -6,3 +6,4 @@ Heaight, Width: 500px
 Az első sor a menü. Ez 25px magas és 3 menüpont van benne (Új játék, Eredmények, Kilép)
 A grideknek stílus, teljes kitöltés és 5px margin
 9 button (bt10, bt11, bt12... bt32). Click esemény: button_Click
+A buttonok betűmérete 50px
