@@ -1,0 +1,8 @@
+Visual Studio C#
+
+-- Gridek elkészítése
+Heaight, Width: 500px
+3 oszlop és 4 sor van
+Az első sor a menü. Ez 25px magas és 3 menüpont van benne (Új játék, Eredmények, Kilép)
+A grideknek stílus, teljes kitöltés és 5px margin
+9 button (bt10, bt11, bt12... bt32). Click esemény: button_Click

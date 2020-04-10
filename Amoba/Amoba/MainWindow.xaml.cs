@@ -20,6 +20,11 @@ namespace Amoba
     /// </summary>
     public partial class MainWindow : Window
     {
+        #region LEPESEK
+        bool turn = true; //ez a változó fogja figyelni, hogy éppen melyik játékos fog következni.
+        int turnCount = 0; //ez a változó fogja számolni a lépéseket.
+        #endregion
+
         public MainWindow()
         {
             InitializeComponent();
@@ -38,6 +43,20 @@ namespace Amoba
         private void miKilep_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+        
+        private void button_Click(object sender, EventArgs e)
+        {
+            
+            Button btn = (Button)sender; //Button változó
+
+            if (turn) 
+                btn.Content = "X"; // ha igaz, akkor az X következik
+            else
+                btn.Content = "O"; // ha hamis, akkor az O következik
+            turn = !turn;
+            btn.IsEnabled = false;
+            
         }
     }
 }

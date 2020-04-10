@@ -30,14 +30,15 @@
             <MenuItem Header="Eredmények" x:Name="miEredmenyek" Click="miEredmenyek_Click" />
             <MenuItem Header="Kilép" x:Name="miKilep" Click="miKilep_Click" />
         </Menu>
-        <Button x:Name="bt10" Grid.Row="1" Grid.Column="0"/>
-        <Button x:Name="bt11" Grid.Row="1" Grid.Column="1"/>
-        <Button x:Name="bt12" Grid.Row="1" Grid.Column="2"/>
-        <Button x:Name="bt20" Grid.Row="2" Grid.Column="0"/>
-        <Button x:Name="bt21" Grid.Row="2" Grid.Column="1"/>
-        <Button x:Name="bt22" Grid.Row="2" Grid.Column="2"/>
-        <Button x:Name="bt30" Grid.Row="3" Grid.Column="0"/>
-        <Button x:Name="bt31" Grid.Row="3" Grid.Column="1"/>
-        <Button x:Name="bt32" Grid.Row="3" Grid.Column="2"/>
+        
+        <Button x:Name="bt10" Grid.Row="1" Grid.Column="0" Click="button_Click" FontSize="50"/>
+        <Button x:Name="bt11" Grid.Row="1" Grid.Column="1" Click="button_Click" FontSize="50"/>
+        <Button x:Name="bt12" Grid.Row="1" Grid.Column="2" Click="button_Click" FontSize="50"/>
+        <Button x:Name="bt20" Grid.Row="2" Grid.Column="0" Click="button_Click" FontSize="50"/>
+        <Button x:Name="bt21" Grid.Row="2" Grid.Column="1" Click="button_Click" FontSize="50"/>
+        <Button x:Name="bt22" Grid.Row="2" Grid.Column="2" Click="button_Click" FontSize="50"/>
+        <Button x:Name="bt30" Grid.Row="3" Grid.Column="0" Click="button_Click" FontSize="50"/>
+        <Button x:Name="bt31" Grid.Row="3" Grid.Column="1" Click="button_Click" FontSize="50"/>
+        <Button x:Name="bt32" Grid.Row="3" Grid.Column="2" Click="button_Click" FontSize="50"/>
     </Grid>
 </Window>
