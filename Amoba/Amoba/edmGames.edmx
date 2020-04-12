@@ -20,6 +20,11 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="p1Name" Type="String" Nullable="false" />
+          <Property Name="p2Name" Type="String" Nullable="false" />
+          <Property Name="p1Points" Type="Int32" Nullable="false" />
+          <Property Name="p2Points" Type="Int32" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
