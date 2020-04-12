@@ -29,3 +29,5 @@ D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\Amoba.exe
 D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\Amoba.pdb
 D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\wndMenu.g.cs
 D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\wndMenu.baml
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\wndMenu.g.cs
+C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\wndMenu.baml
