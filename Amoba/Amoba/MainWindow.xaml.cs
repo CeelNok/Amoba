@@ -25,6 +25,11 @@ namespace Amoba
         int turnCount = 0; //ez a változó fogja számolni a lépéseket.
         #endregion
 
+        #region JATEKOSOK
+        string player1 = "Alma";
+        string player2;
+        #endregion
+
         public MainWindow()
         {
             InitializeComponent();
@@ -51,12 +56,15 @@ namespace Amoba
             Button btn = (Button)sender; //Button változó
 
             if (turn) 
-                btn.Content = "X"; // ha igaz, akkor az X következik
+                btn.Content = "X"; // ha turn igaz, akkor az X következik
             else
                 btn.Content = "O"; // ha hamis, akkor az O következik
             turn = !turn; 
             btn.IsEnabled = false;
+
             
         }
+
+
     }
 }
