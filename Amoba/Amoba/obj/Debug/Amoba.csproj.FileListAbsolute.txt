@@ -31,3 +31,5 @@ D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\wndMenu.g.cs
 D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\wndMenu.baml
 C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\wndMenu.g.cs
 C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\wndMenu.baml
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\wndSettings.g.cs
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\wndSettings.baml

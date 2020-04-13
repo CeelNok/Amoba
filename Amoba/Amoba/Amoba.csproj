@@ -65,6 +65,9 @@
     <Compile Include="wndMenu.xaml.cs">
       <DependentUpon>wndMenu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="wndSettings.xaml.cs">
+      <DependentUpon>wndSettings.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -78,6 +81,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="wndMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="wndSettings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

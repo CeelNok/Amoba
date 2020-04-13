@@ -1,0 +1,41 @@
+﻿<Window x:Class="Amoba.wndSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Amoba"
+        mc:Ignorable="d"
+        Title="wndSettings" Height="250" Width="300">
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.Resources>
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                <Setter Property="VerticalAlignment" Value="Stretch"/>
+                <Setter Property="Margin" Value="5"/>
+            </Style>
+        </Grid.Resources>
+        <Label x:Name="lbPlayer1" Grid.Row="1" Grid.Column="0" Content="1. játékos"/>
+        <Label x:Name="lbPlayer2" Grid.Row="2" Grid.Column="0" Content="2. játékos"/>
+        <Label x:Name="lbComputer" Grid.Row="3" Grid.Column="0" Content="Gép ellen:"/>
+        <TextBox x:Name="tbPlayer1" Grid.Row="1" Grid.Column="1" Margin="10"/>
+        <TextBox x:Name="tbPlayer2" Grid.Row="2" Grid.Column="1" Margin="10"/>
+        <RadioButton x:Name="rbComputer" Grid.Row="3" Grid.Column="1"/>
+        <Button x:Name="btBack" Grid.Row="4" Grid.Column="0" Content="Vissza" Click="click_Back"/>
+        <Button x:Name="btStart" Grid.Row="4" Grid.Column="1" Content="Start"/>
+        
+
+    </Grid>
+</Window>

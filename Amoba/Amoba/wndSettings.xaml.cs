@@ -15,30 +15,20 @@ using System.Windows.Shapes;
 namespace Amoba
 {
     /// <summary>
-    /// Interaction logic for wndMenu.xaml
+    /// Interaction logic for wndSettings.xaml
     /// </summary>
-    public partial class wndMenu : Window
+    public partial class wndSettings : Window
     {
-        public wndMenu()
+        public wndSettings()
         {
             InitializeComponent();
         }
 
-        private void click_UjJatek(object sender, RoutedEventArgs e)
+        private void click_Back(object sender, RoutedEventArgs e)
         {
-            wndSettings wndSettings = new wndSettings();
+            wndMenu wndMenu = new wndMenu();
             this.Hide(); //bezárja ezt az ablakot.. vagyis eltünteti
-            wndSettings.ShowDialog(); // wndSettings ablak megnyitása
-        }
-
-        private void click_Eredmenyek(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void click_Kilep(object sender, RoutedEventArgs e)
-        {
-            Application.Current.Shutdown(); // bezátja a programot
+            wndMenu.ShowDialog(); // wndSettings ablak megnyitása
         }
     }
 }

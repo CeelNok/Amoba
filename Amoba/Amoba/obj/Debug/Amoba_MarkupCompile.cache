@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\obj\Debug\
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\
 Amoba
 none
 false
 DEBUG;TRACE
-C:\Users\Patrik\Documents\GitHub\Amoba\Amoba\Amoba\App.xaml
-2-1934614824
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\App.xaml
+3-401854516
 
-8368485929
+8413043698
 15747332043
-MainWindow.xaml;wndMenu.xaml;
+MainWindow.xaml;wndMenu.xaml;wndSettings.xaml;
 
-True
+False
 
