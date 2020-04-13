@@ -19,6 +19,12 @@ namespace Amoba
     /// </summary>
     public partial class wndSettings : Window
     {
+        #region SETTINGS
+        string player1 = "";
+        string player2 = "";
+        bool computer = false;
+        #endregion // a beállítás változói
+
         public wndSettings()
         {
             InitializeComponent();
@@ -29,6 +35,24 @@ namespace Amoba
             wndMenu wndMenu = new wndMenu();
             this.Hide(); //bezárja ezt az ablakot.. vagyis eltünteti
             wndMenu.ShowDialog(); // wndSettings ablak megnyitása
+        }
+
+        private void click_Start(object sender, RoutedEventArgs e)
+        {
+            adatokBetoltese();
+            MainWindow mainWindow = new MainWindow(player1, player2);
+            this.Hide(); //bezárja ezt az ablakot.. vagyis eltünteti
+            mainWindow.ShowDialog(); // mainWindow ablak megnyitása
+        }
+
+        private void adatokBetoltese()
+        {
+            player1 = tbPlayer1.Text;
+            player2 = tbPlayer2.Text;
+            if (rbComputer.IsChecked == true)
+                computer = true;
+            else
+                computer = false;
         }
     }
 }

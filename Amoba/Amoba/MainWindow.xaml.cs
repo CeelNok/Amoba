@@ -26,13 +26,16 @@ namespace Amoba
         #endregion
 
         #region JATEKOSOK
-        string player1 = "Alma";
+        string player1;
         string player2;
+        bool computer;
         #endregion
 
-        public MainWindow()
+        public MainWindow(string p1name, string p2name)
         {
+            whoStart(p1name, p2name); // a függvény eldönti, hogy melyik játékos kezd
             InitializeComponent();
+            lbCurrently.Content = player2;
         }
 
         private void miUjjatek_Click(object sender, RoutedEventArgs e)
@@ -54,17 +57,44 @@ namespace Amoba
         {
             
             Button btn = (Button)sender; //Button változó
-
-            if (turn) 
+            if (turn)
+            {
+                lbCurrently.Content = player1;
                 btn.Content = "X"; // ha turn igaz, akkor az X következik
+            }
             else
+            {
+                lbCurrently.Content = player2;
                 btn.Content = "O"; // ha hamis, akkor az O következik
+            }
             turn = !turn; 
             btn.IsEnabled = false;
-
             
         }
 
+        private void miVissza_Click(object sender, RoutedEventArgs e)
+        {
+            wndSettings wndSettings = new wndSettings();
+            this.Hide(); //bezárja ezt az ablakot.. vagyis eltünteti
+            wndSettings.ShowDialog(); // wndSettings ablak megnyitása
+        }
+
+        private void whoStart(string p1, string p2)
+        {
+            Random r = new Random();
+            int rand  = r.Next(2);
+            if (rand == 0)
+            {
+                player1 = p1;
+                player2 = p2;
+            }       
+            if (rand == 1)
+            {
+                player1 = p2;
+                player2 = p1;
+            }
+
+        }
 
     }
 }

@@ -14,6 +14,7 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>
+            <RowDefinition Height="40"/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
@@ -28,17 +29,19 @@
         <Menu Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="0">
             <MenuItem Header="Új játék" x:Name="miUjjatek" Click="miUjjatek_Click" />
             <MenuItem Header="Eredmények" x:Name="miEredmenyek" Click="miEredmenyek_Click" />
+            <MenuItem Header="Vissza" x:Name="miVissza" Click="miVissza_Click" />
             <MenuItem Header="Kilép" x:Name="miKilep" Click="miKilep_Click" />
         </Menu>
-        
-        <Button x:Name="bt10" Grid.Row="1" Grid.Column="0" Click="button_Click" FontSize="50"/>
-        <Button x:Name="bt11" Grid.Row="1" Grid.Column="1" Click="button_Click" FontSize="50"/>
-        <Button x:Name="bt12" Grid.Row="1" Grid.Column="2" Click="button_Click" FontSize="50"/>
+
+        <Label x:Name="lbCurrently" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" />
         <Button x:Name="bt20" Grid.Row="2" Grid.Column="0" Click="button_Click" FontSize="50"/>
         <Button x:Name="bt21" Grid.Row="2" Grid.Column="1" Click="button_Click" FontSize="50"/>
         <Button x:Name="bt22" Grid.Row="2" Grid.Column="2" Click="button_Click" FontSize="50"/>
         <Button x:Name="bt30" Grid.Row="3" Grid.Column="0" Click="button_Click" FontSize="50"/>
         <Button x:Name="bt31" Grid.Row="3" Grid.Column="1" Click="button_Click" FontSize="50"/>
         <Button x:Name="bt32" Grid.Row="3" Grid.Column="2" Click="button_Click" FontSize="50"/>
+        <Button x:Name="bt40" Grid.Row="4" Grid.Column="0" Click="button_Click" FontSize="50"/>
+        <Button x:Name="bt41" Grid.Row="4" Grid.Column="1" Click="button_Click" FontSize="50"/>
+        <Button x:Name="bt42" Grid.Row="4" Grid.Column="2" Click="button_Click" FontSize="50"/>
     </Grid>
 </Window>
