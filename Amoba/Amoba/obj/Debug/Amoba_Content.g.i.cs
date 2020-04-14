@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute(".sql")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("edmgames.context.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("edmgames.edmx.sql")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("edmgames.tt")]
 
 
