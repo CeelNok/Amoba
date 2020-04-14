@@ -30,9 +30,9 @@
         <Label x:Name="lbPlayer1" Grid.Row="1" Grid.Column="0" Content="1. játékos" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         <Label x:Name="lbPlayer2" Grid.Row="2" Grid.Column="0" Content="2. játékos" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Label x:Name="lbComputer" Grid.Row="3" Grid.Column="0" Content="Gép ellen:" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBox x:Name="tbPlayer1" Grid.Row="1" Grid.Column="1" Margin="10"/>
-        <TextBox x:Name="tbPlayer2" Grid.Row="2" Grid.Column="1" Margin="10"/>
-        <RadioButton x:Name="rbComputer" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox x:Name="tbPlayer1" Grid.Row="1" Grid.Column="1" Margin="10" VerticalAlignment="Center"/>
+        <TextBox x:Name="tbPlayer2" Grid.Row="2" Grid.Column="1" Margin="10" VerticalAlignment="Center"/>
+        <CheckBox x:Name="cbComputer" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Checked="checked_cbComputer"/>
         <Button x:Name="btBack" Grid.Row="4" Grid.Column="0" Content="Vissza" Click="click_Back"/>
         <Button x:Name="btStart" Grid.Row="4" Grid.Column="1" Content="Start" Click="click_Start"/>
         

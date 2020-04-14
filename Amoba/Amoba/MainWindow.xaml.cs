@@ -28,11 +28,12 @@ namespace Amoba
         #region JATEKOSOK
         string player1;
         string player2;
-        bool computer;
+        int computer;
         #endregion
 
-        public MainWindow(string p1name, string p2name)
+        public MainWindow(string p1name, string p2name, int bot) // megkapja a Settings ablaktól a 2 nevet és a compuer változót
         {
+            computer = bot; // betölti a computer változóba a kapott bot értéket (0..1)
             whoStart(p1name, p2name); // a függvény eldönti, hogy melyik játékos kezd
             InitializeComponent();
             lbCurrently.Content = player2;
@@ -81,17 +82,17 @@ namespace Amoba
 
         private void whoStart(string p1, string p2)
         {
-            Random r = new Random();
-            int rand  = r.Next(2);
+            Random r = new Random(); 
+            int rand  = r.Next(2); // generál egy random számot 0 és 1 között
             if (rand == 0)
             {
-                player1 = p1;
-                player2 = p2;
+                player1 = p1 + " (O)";
+                player2 = p2 + " (X)";
             }       
             if (rand == 1)
             {
-                player1 = p2;
-                player2 = p1;
+                player1 = p2 + " (O)"; 
+                player2 = p1 + " (X)";
             }
 
         }
