@@ -12,7 +12,7 @@ namespace Amoba
     using System;
     using System.Collections.Generic;
     
-    public partial class Entity1
+    public partial class Games
     {
         public int Id { get; set; }
         public string player1 { get; set; }
