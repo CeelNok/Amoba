@@ -25,6 +25,6 @@ namespace Amoba
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Entity1> Entity1Set { get; set; }
+        public virtual DbSet<Games> GamesSet { get; set; }
     }
 }
