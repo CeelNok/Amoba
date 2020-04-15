@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 04/14/2020 10:52:19
+-- Date Created: 04/15/2020 17:06:06
 -- Generated from EDMX file: D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\edmGames.edmx
 -- --------------------------------------------------
 
@@ -22,6 +22,9 @@ GO
 -- Dropping existing tables
 -- --------------------------------------------------
 
+IF OBJECT_ID(N'[dbo].[GamesSet]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[GamesSet];
+GO
 
 -- --------------------------------------------------
 -- Creating all tables
