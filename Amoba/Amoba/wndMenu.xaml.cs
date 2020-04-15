@@ -14,9 +14,7 @@ using System.Windows.Shapes;
 
 namespace Amoba
 {
-    /// <summary>
-    /// Interaction logic for wndMenu.xaml
-    /// </summary>
+
     public partial class wndMenu : Window
     {
         public wndMenu()

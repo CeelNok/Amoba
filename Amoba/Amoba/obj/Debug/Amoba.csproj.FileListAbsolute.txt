@@ -38,3 +38,4 @@ D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\bin\Debug\EntityFramework.Sql
 D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\bin\Debug\EntityFramework.xml
 D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\bin\Debug\EntityFramework.SqlServer.xml
 D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\Amoba.csproj.CopyComplete
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\Amoba\obj\Debug\Amoba_Content.g.cs

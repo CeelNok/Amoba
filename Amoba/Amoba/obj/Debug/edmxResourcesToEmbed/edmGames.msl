@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
-  <Alias Key="Model" Value="edmGames" />
-  <Alias Key="Target" Value="edmGames.Store" />
-  <EntityContainerMapping CdmEntityContainer="edmGamesContainer" StorageEntityContainer="edmGamesTargetContainer" />
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="edmGamesStoreContainer" CdmEntityContainer="edmGamesContainer1">
+    <EntitySetMapping Name="GamesSet">
+      <EntityTypeMapping TypeName="IsTypeOf(edmGames.Games)">
+        <MappingFragment StoreEntitySet="GamesSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="player1" ColumnName="player1" />
+          <ScalarProperty Name="player2" ColumnName="player2" />
+          <ScalarProperty Name="winner" ColumnName="winner" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
 </Mapping>
