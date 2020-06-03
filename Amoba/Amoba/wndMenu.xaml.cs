@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using databaseAmoba_DAL;
 
 namespace Amoba
 {
@@ -31,7 +32,9 @@ namespace Amoba
 
         private void click_Eredmenyek(object sender, RoutedEventArgs e)
         {
-
+            Window1 wndMatches = new Window1();
+            this.Hide(); //bezárja ezt az ablakot.. vagyis eltünteti
+            wndMatches.ShowDialog(); // wndSettings ablak megnyitása
         }
 
         private void click_Kilep(object sender, RoutedEventArgs e)

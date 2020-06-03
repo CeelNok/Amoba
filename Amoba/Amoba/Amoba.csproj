@@ -44,8 +44,10 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -64,23 +66,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="edmGames.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>edmGames.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="edmGames.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>edmGames.tt</DependentUpon>
-    </Compile>
-    <Compile Include="edmGames.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>edmGames.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Games.cs">
-      <DependentUpon>edmGames.tt</DependentUpon>
+    <Compile Include="wndMatches.xaml.cs">
+      <DependentUpon>wndMatches.xaml</DependentUpon>
     </Compile>
     <Compile Include="wndMenu.xaml.cs">
       <DependentUpon>wndMenu.xaml</DependentUpon>
@@ -100,6 +87,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="wndMatches.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="wndMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -127,13 +118,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="edmGames.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>edmGames.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="edmGames.edmx.diagram">
-      <DependentUpon>edmGames.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -150,17 +134,10 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="edmGames.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>edmGames.Context.cs</LastGenOutput>
-      <DependentUpon>edmGames.edmx</DependentUpon>
-    </Content>
-    <Content Include="edmGames.edmx.sql" />
-    <Content Include="edmGames.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>edmGames.cs</LastGenOutput>
-      <DependentUpon>edmGames.edmx</DependentUpon>
-    </Content>
+    <ProjectReference Include="..\databaseAmoba_DAL\databaseAmoba_DAL.csproj">
+      <Project>{5a9d5d92-132c-4d9b-8ff2-c678fcea35f9}</Project>
+      <Name>databaseAmoba_DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using databaseAmoba_DAL;
 
 namespace Amoba
 {
@@ -23,9 +24,12 @@ namespace Amoba
         int computer = 0; // ha 1, akkor pc játszik, ha 0, akkor nem ... ezt adja át a MainWindow ablaknak
         #endregion 
 
+        private cnDatabaseAmoba cnDatabaseAmoba;
+
         public wndSettings()
         {
             InitializeComponent();
+            cnDatabaseAmoba = new cnDatabaseAmoba();
         }
 
         private void checked_cbComputer(object sender, RoutedEventArgs e)
@@ -59,6 +63,7 @@ namespace Amoba
             MainWindow mainWindow = new MainWindow(player1, player2, computer); //paraméterben átadja 2 nevet és a computer változót
             this.Hide(); //bezárja ezt az ablakot.. vagyis eltünteti
             mainWindow.ShowDialog(); // mainWindow ablak megnyitása
+            cnDatabaseAmoba.SaveChanges();
         }
 
         private void adatokBetoltese()
@@ -67,7 +72,5 @@ namespace Amoba
             player2 = tbPlayer2.Text; // az 2. játékos nevét betölti a player2 változóba
 
         }
-
-
     }
 }

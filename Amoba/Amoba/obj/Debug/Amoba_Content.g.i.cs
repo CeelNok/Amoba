@@ -8,8 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("edmgames.context.tt")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("edmgames.edmx.sql")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("edmgames.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("databaseamoba.context.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("databaseamoba.tt")]
 
 

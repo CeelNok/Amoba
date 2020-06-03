@@ -1,0 +1,12 @@
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\bin\Debug\databaseAmoba_DAL.dll.config
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\bin\Debug\databaseAmoba_DAL.dll
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\bin\Debug\databaseAmoba_DAL.pdb
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\bin\Debug\EntityFramework.dll
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\bin\Debug\EntityFramework.xml
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\obj\Debug\databaseAmoba_DAL.csprojAssemblyReference.cache
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\obj\Debug\databaseAmoba_DAL.csproj.CoreCompileInputs.cache
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\obj\Debug\databaseAmoba_DAL.csproj.CopyComplete
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\obj\Debug\databaseAmoba_DAL.dll
+D:\Patrik\Github\Amoba\amobagame\Amoba\Amoba\databaseAmoba_DAL\obj\Debug\databaseAmoba_DAL.pdb

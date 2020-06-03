@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="databaseAmoba" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="cndatabaseAmoba" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="GamesSet" EntityType="databaseAmoba.Games" />
+  </EntityContainer>
+  <EntityType Name="Games">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="p1Name" Type="String" Nullable="false" />
+    <Property Name="p2Name" Type="String" Nullable="false" />
+    <Property Name="winner" Type="String" Nullable="false" />
+    <Property Name="date" Type="DateTime" Nullable="false" />
+  </EntityType>
+</Schema>
